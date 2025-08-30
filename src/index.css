@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+#root{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade-up-bounce {
+  0%, 100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(-10px);
+  }
+}
+
+.animate-slide-left {
+  animation: slide-left 6s ease-in-out infinite;
+}
+
+.animate-slide-right {
+  animation: slide-right 6s ease-in-out infinite;
+}
+
+.animate-fade-up-bounce {
+  animation: fade-up-bounce 4s ease-in-out infinite;
+}
