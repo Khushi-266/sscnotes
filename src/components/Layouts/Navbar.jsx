@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/home" className="text-black hover:text-red-600 transition">Home</Link>
+          <Link to="/" className="text-black hover:text-red-600 transition">Home</Link>
           <Link to="/notes" className="text-black hover:text-red-600 transition">Notes</Link>
           <Link to="/contact" className="text-black hover:text-red-600 transition">Contact Us</Link>
           <Link to="/about" className="text-black hover:text-red-600 transition">About Us</Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white px-4 pb-4 shadow-md">
           <div className="flex flex-col gap-4">
-            <Link to="/home" className="text-black hover:text-red-600" onClick={toggleMenu}>Home</Link>
+            <Link to="/" className="text-black hover:text-red-600" onClick={toggleMenu}>Home</Link>
             <Link to="/notes" className="text-black hover:text-red-600" onClick={toggleMenu}>Notes</Link>
             <Link to="/contact" className="text-black hover:text-red-600" onClick={toggleMenu}>Contact Us</Link>
             <Link to="/about" className="text-black hover:text-red-600" onClick={toggleMenu}>About Us</Link>

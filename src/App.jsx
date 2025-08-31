@@ -5,6 +5,8 @@ import Home from './components/home/Home';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import NotesList from './components/notes/Notes';
+import ContactUs from './components/contactus/Contact';
+import AboutUs from './components/aboutus/About';
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +23,8 @@ const App = () => {
         {/* User Route */}
         <Route path="/" element={<Home />} />
         <Route path="/notes" element={<NotesList />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   );

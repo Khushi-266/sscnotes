@@ -163,27 +163,20 @@ const Access = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-16">
-          <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-10 rounded-full shadow-md transition duration-300">
+          <a href="/notes" className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-10 rounded-full shadow-md transition duration-300">
             Get Access Now
-          </button>
+          </a>
         </div>
 
-        {/* Video Section */}
         <div className="mt-16 flex justify-center px-4">
-          <div className="w-full max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-4xl aspect-video rounded-lg shadow-xl overflow-hidden">
-            <video
-              className="w-full h-full object-cover"
-              src="/video/ssc2.mp4"
-              controls
-              autoPlay
-              muted
-              playsInline
-            >
-              Your browser does not support the video tag.
-            </video>
+          <div className="w-full max-w-4xl rounded-lg shadow-xl overflow-hidden">
+            <img
+              src="/images/hero.jpg"
+              alt="Access Preview"
+              className="w-full max-h-[400px] object-cover"
+            />
           </div>
         </div>
-
 
       </div>
     </section>

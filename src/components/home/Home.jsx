@@ -7,6 +7,7 @@ import AspirantSupportSection from '../Layouts/AspirantSupportSection'
 import ReviewSection from '../Layouts/ReviewSection'
 import StatsSection from '../Layouts/StateSection'
 import Footer from '../Layouts/Footer'
+import NotesSection from '../Layouts/NotesSection'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero/>
       <Access/>
       <FeaturesSection/>
+      <NotesSection/>
       <AspirantSupportSection/>
       <ReviewSection/>
       <StatsSection/>

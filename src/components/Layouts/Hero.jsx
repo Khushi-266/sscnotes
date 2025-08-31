@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
               SSC Notes &amp; Study Material <br />
-              <span className="text-indigo-500">For All Competitive Exams</span>
+              <span className="text-indigo-500 animate-ping ">For All Competitive Exams</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Access topic-wise SSC notes, previous year papers, and smart revision resources.
@@ -54,13 +54,13 @@ const Hero = () => {
             </p>
             <div className="flex justify-center md:justify-start gap-4 py-10">
               <a
-                href="#notes"
+                href="/notes"
                 className="inline-block bg-indigo-600 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition"
               >
                 Browse Notes
               </a>
               <a
-                href="#about"
+                href="/about"
                 className="inline-block bg-white text-indigo-600 border border-indigo-200 px-6 py-3 rounded-lg shadow-sm hover:bg-indigo-50 transition"
               >
                 Learn More
